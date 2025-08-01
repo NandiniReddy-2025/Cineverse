@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image with Text Example</title>
+<style>
+  body {
+    background-image: url('https://www.pymnts.com/wp-content/uploads/2020/04/movie-theaters-streaming-services.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* This property ensures that the background image covers the entire screen */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    /* You can add more CSS properties to customize the background image */
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 39%; /* Adjust as needed */
+    left: 39%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: rgb(255, 252, 251);
+    text-align: center;
+    font-size: 30px; /* Adjust as needed */
+    /* You can add more CSS properties to style the text */
+  }
+</style>
+</head>
+<body>
+  <div class="text-overlay">
+    <h1><b>CINEVERSE</b></h1>
+    <p><b>Cineverse:Our global film adventures! Explore a world of movies in any language, across all platforms. Dive into detailed information like cast, trailers, and streaming availability. From Hollywood blockbusters to hidden gems, Cineverse helps you discover your next cinematic adventure-no matter your taste or location.</b></p>
+  </div>
+  <!-- Your website content goes here -->
+</body>
+</html>
